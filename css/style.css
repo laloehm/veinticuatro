@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'Ghotam';
+    src: url('../fonts/Gotham-Medium.otf');
+}
+
+@font-face {
+    font-family: 'Ghotam-light';
+    src: url('../fonts/Gotham-Light.otf');
+}
+
+@font-face {
+    font-family: 'Bold-Italika';
+    src: url('../fonts/Gotham-BoldIta.otf');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ghotam-light', serif;
+}
+
+.row {
+    margin: 0;
+}
+
+.bg-blue {
+    background: #0086be;
+}
+
+/* Home */
+
+.home .box {
+    width: 40%;
+    position: relative;
+}
+
+.home h1 {
+    position: absolute;
+    bottom: -1.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 60%;
+}
+
+.home h3 {
+    position: absolute;
+    bottom: 0;
+    font-size: 3rem;
+}
+
+/* About */
+.about h2 {
+    color: #ba007c;
+    font-family: 'Gotham-light', serif;
+}
+
+.about h2::after {
+    content: '';
+    position: relative;
+    height: 1px;
+    top: 0;
+    left: -86px;
+    display: block;
+    background: black;
+    margin: 1.5rem 0;
+    width: 400px;
+}
+
+.about p span:nth-child(1) {
+    color: #ffffff;
+    background: #0086be;
+}
+
+.about p span:nth-child(2) {
+    background: #ba007c;
+    color: #ffffff;
+}
+
+.about img.position-absolute {
+    width: 350px;
+    right: 0;
+    top: 0;
+}
+
+/* Nosotros */
+.nosotros {
+    margin-top: 8rem;
+}
+
+.nosotros h2::after {
+    content: '';
+    position: relative;
+    height: 1px;
+    top: 0;
+    right: -86px;
+    display: block;
+    background: black;
+    margin: 1.5rem 0;
+    width: 490px;
+}
+
+.nosotros h2 {
+    color: #0086be;
+}
+
+.nosotros p {
+    width: 100%;
+}
+
+.nosotros p span:nth-child(1) {
+    background: #ba007c;
+    color: #ffffff;
+}
+
+.nosotros p span:nth-child(2) {
+    font-family: 'Bold-Italika', serif;
+}
+
+.nosotros .col-md-8 p:nth-child(3) span:nth-child(1) {
+    background: #0086be;
+}
+
+.nosotros .col-md-8 p:nth-child(3) span:nth-child(2) {
+    font-family: 'Bold-Italika', serif;
+}
+
+/* Retail */
+.retail h2 {
+    font-size: 1.7rem;
+}
+
+/* Activaciones */
+.activaciones img {
+    width: 80%;
+}
