@@ -44,7 +44,7 @@
 /* Home */
 
 .home .box {
-    width: 40%;
+    width: 30%;
     position: relative;
 }
 
@@ -106,11 +106,11 @@
     position: relative;
     height: 1px;
     top: 0;
-    right: -86px;
+    right: -45px;
     display: block;
     background: black;
     margin: 1.5rem 0;
-    width: 490px;
+    width: 440px;
 }
 
 .nosotros h2 {
