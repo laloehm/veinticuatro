@@ -29,6 +29,18 @@
     background: #0086be;
 }
 
+.bg-rosa {
+    background: #ba007c;
+}
+
+.bg-yellow {
+    background: #eed836;
+}
+
+.text-rosa {
+    color: #ba007c;
+}
+
 /* Home */
 
 .home .box {
@@ -39,7 +51,7 @@
 .home h1 {
     position: absolute;
     bottom: -1.5rem;
-    font-size: 1.2rem;
+    font-size: .9rem;
     text-align: center;
     width: 60%;
 }
@@ -47,7 +59,7 @@
 .home h3 {
     position: absolute;
     bottom: 0;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 /* About */
@@ -128,10 +140,14 @@
 
 /* Retail */
 .retail h2 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 
 /* Activaciones */
+.activaciones {
+    height: 300px;
+}
+
 .activaciones img {
     width: 80%;
 }
