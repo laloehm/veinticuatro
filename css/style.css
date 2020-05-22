@@ -98,7 +98,7 @@ h2 {
     display: block;
     background: black;
     margin: 1.5rem 0;
-    width: 400px;
+    width: 360px;
 }
 
 .about p span:nth-child(1) {
@@ -131,7 +131,7 @@ h2 {
     display: block;
     background: black;
     margin: 1.5rem 0;
-    width: 440px;
+    width: 380px;
 }
 
 .nosotros h2 {
@@ -279,4 +279,13 @@ h2 {
     border: none;
     border-bottom: 1px solid white;
     border-radius: 0;
+}
+
+.box-form .form-control:focus {
+    background: #ba007c;
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
 }
