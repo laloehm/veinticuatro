@@ -184,6 +184,44 @@ h2 {
     width: 100%;
 }
 
+.event .gallery {
+    height: 320px;
+    overflow: hidden;
+}
+
+.event .gallery .box-1,
+.event .gallery .box-2,
+.event .gallery .box-4,
+.event .gallery .box-5 {
+    height: 155px;
+    overflow: hidden;
+}
+
+.event .gallery .box-2,
+.event .gallery .box-4,
+.event .gallery .box-5 {
+    margin-top: 10px;
+}
+
+.event .gallery .box-1 img,
+.event .gallery .box-2 img,
+.event .gallery .box-4 img,
+.event .gallery .box-5 img {
+    top: -60px;
+    position: relative;
+}
+
+.event .gallery .box-3 {
+    height: 155px;
+    overflow: hidden;
+    background-image: url(../img/Convenciones/1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Digital */
+
 .digital .sita {
     width: 75%;
     margin: 2rem auto;

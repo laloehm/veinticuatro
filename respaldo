@@ -1,0 +1,83 @@
+  <!-- Carousel -->
+                <div class="owl-carousel owl-theme mt-5">
+                    <!--  -->
+                    <div class="mx-auto">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="gallery-item2" data-index="1">
+                                <img src="img/Convenciones/1.png" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--  -->
+                    <div class="mx-auto">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="gallery-item2" data-index="2">
+                                <img src="img/Convenciones/2.png" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--  -->
+                    <div class="mx-auto">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="gallery-item2" data-index="3">
+                                <img src="img/Convenciones/3.png" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--  -->
+                    <div class="mx-auto">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="gallery-item2" data-index="4">
+                                <img src="img/Convenciones/4.png" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--  -->
+                    <div class="mx-auto">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="gallery-item2" data-index="5">
+                                <img src="img/Convenciones/5.png" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--  -->
+                    <div class="mx-auto">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="gallery-item2" data-index="6">
+                                <img src="img/Convenciones/6.png" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--  -->
+                    <div class="mx-auto">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="gallery-item2" data-index="7">
+                                <img src="img/Convenciones/7.png" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--  -->
+                    <div class="mx-auto">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="gallery-item2" data-index="8">
+                                <img src="img/Convenciones/8.png" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--  -->
+                    <div class="mx-auto">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="gallery-item2" data-index="9">
+                                <img src="img/Convenciones/9.png" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>

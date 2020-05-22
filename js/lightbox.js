@@ -31,8 +31,8 @@ const lightBoxNext = document.createElement("div");
 lightBoxContainer.classList.add("lightbox");
 lightBoxContent.classList.add("lightbox-content");
 lightBoxImg.classList.add("img-fluid");
-lightBoxPrev.classList.add("fa", "fa-angle-left", "lightbox-prev");
-lightBoxNext.classList.add("fa", "fa-angle-right", "lightbox-next");
+lightBoxPrev.classList.add("fas", "fa-arrow-circle-left", "lightbox-prev");
+lightBoxNext.classList.add("fa", "fa-arrow-circle-right", "lightbox-next");
 
 lightBoxContainer.appendChild(lightBoxContent);
 lightBoxContent.appendChild(lightBoxImg);
