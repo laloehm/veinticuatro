@@ -21,7 +21,7 @@ document.body.appendChild(lightBoxContainerD);
 
 let indexD = 1;
 
-function showLightBox(n) {
+function showLightBoxD(n) {
     if (n > galleryItemD.length) {
         indexD = 1;
     } else if (n < 1) {
@@ -35,14 +35,14 @@ function currentImage() {
     lightBoxContainerD.style.display = "block";
 
     let imageIndex = parseInt(this.getAttribute("data-index"));
-    showLightBox(indexD = imageIndex);
+    showLightBoxD(indexD = imageIndex);
 }
 for (let i = 0; i < galleryItemD.length; i++) {
     galleryItemD[i].addEventListener("click", currentImage);
 }
 
 function slideImageD(n) {
-    showLightBox(indexD += n);
+    showLightBoxD(indexD += n);
 }
 
 function prevImageD() {
