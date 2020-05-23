@@ -19,6 +19,8 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
+new WOW().init();
+
 // Modal
 $('#pantallasvapor').on('click', () => {
     // $('.myFrame').removeAttr('src');

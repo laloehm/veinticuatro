@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="css/animate.css">
 
 
     <title>24/7</title>
@@ -21,22 +22,25 @@
 <body>
 
     <!-- Header -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand m-3" href="index.html"><img src="img/Logo.png" width="70" alt=""></a>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <!-- <a class="navbar-brand m-3" href="index.html"><img src="img/Logo.png" width="70" alt=""></a> -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">¿QUIÉNES SOMOS? <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="quienes-somos.html">¿QUIÉNES SOMOS? </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="experiencias-integrales.html">EXPERIENCIAS INTEGRALES 360º</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="events.html">EVENTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="digital-marketing.html">DIGITAL MARKETING</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="partners.html">PARTNERS</a>
@@ -49,130 +53,17 @@
     </nav>
 
     <!-- Home -->
-    <section class="home d-flex justify-content-center align-items-center my-5 pb-5">
+    <section class="home d-flex justify-content-center align-items-center">
         <!-- <h2>247</h2> -->
-        <div class="box mb-5">
-            <img src="img/Home.png" class="img-fluid" alt="">
-            <h3>VEINTICUATRO</h3>
-            <h1>EXPERIENCIAS INTEGRALES </h1>
+        <div class="box">
+            <img src="img/Home.png" class="img-fluid wow fadeIn" data-wow-duration="3s" alt="">
+            <!-- <h3>VEINTICUATRO</h3>
+            <h1>EXPERIENCIAS INTEGRALES </h1> -->
         </div>
     </section>
 
-    <!-- Quiénes Somos -->
-    <section class="about position-relative my-5">
-        <div class="row mt-5 pl-4">
-            <div class="col-md-7 px-5">
-                <h2>¿QUIÉNES SOMOS?</h2>
-                <!-- <hr> -->
-                <p class="">Somos una <span class="px-1">agencia integral</span> y nuestro propósito es contribuir con el negocio de nuestros clientes <span class="px-1"> desarrollando estrategias, creatividad y operación,</span> teniendo como objetivo principal la creación de experiencias acorde a las necesidades de las marcas, logrando la plena satisfacción de nuestros clientes.</p>
-            </div>
-            <div class="col-3 offset-2 p-0">
-                <img src="img/about.png" class="img-fluid" alt="">
-            </div>
-        </div>
-    </section>
-
-    <!-- Nosotros -->
-    <section class="nosotros">
-        <div class="row">
-            <div class="col-md-3 p-0">
-                <img src="img/Porque.png" class="img-fluid" width="200" alt="">
-            </div>
-            <div class="col-md-8 offset-1 px-5 d-flex align-items-end flex-column">
-                <h2 class="text-right">¿POR QUÉ NOSOTROS?</h2>
-                <p>Tenemos el orgullo de decir que somos la <span class="px-1"> agencia integral preferida por nuestros clientes </span> gracias al desarrollo de <span> estrategias creativas y efectivas, </span> así como el servicio y calidad de cada proyecto, pero sobre todo 24/7,</p>
-
-                <p>
-                    <span class="px-1"> ¿Esto qué significa? </span> Que estamos abiertos a escuchar a nuestros clientes a toda hora, ya que entendemos las necesidades de urgencia, nos distingue la <span> personalización de las estrategias integrales </span> y nos apasiona generar vínculos emocionales con los clientes y consumidores en todo momento.</p>
-                <p>
-
-                    Contamos con más de 11 años de experiencia
-                    teniendo una cobertura a nivel nacional.
-                </p>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- Retail -->
-    <section class="my-5 py-5 retail">
-        <div class="row">
-            <div class="col-md-5 col-lg-6 d-flex justify-content-center align-items-center">
-                <img src="img/Retail.png" class="img-fluid" width="400" alt="">
-            </div>
-            <div class="col-md-7 col-lg-6 px-5 d-flex justify-content-around flex-column">
-                <h2 class="m-0"> <span class="bg-blue p-2 text-white">RETAIL MARKETING</span></h2>
-                <h2 class="pl-5 text-rosa">EXPERIENCIAL MARKETING</h2>
-                <h2 class="m-0 pl-5"><span class="bg-blue p-2 text-white">EVENT MARKETING</span></h2>
-                <h2 class=" text-rosa">DIGITAL MARKETING</h2>
-            </div>
-        </div>
-    </section>
-
-    <section class="my-5">
+    <!-- <footer class="pt-3 pb-3">
         <div class="container">
-            <h2 class="text-center"> <span class="bg-blue p-3 text-white">RETAL MARKETING</span> </h2>
-            <h3 class="my-5 text-center">ACTIVACIONES BTL</h3>
-            <p>Creamos experiencias innovadoras para el consumidor, potencializamos la marca y generamos impactos efectivos con una clara diferencia y que perduren en la mente de nuestro público objetivo. Foco, Control y Ejecución
-            </p>
-            <div class="row px-5 activaciones mb-5">
-                <div class="col-md-6 col-lg-3 d-flex justify-content-center align-items-center">
-                    <img src="img/1.png" class="img-fluid" alt="">
-                    <p class="position-absolute text-center text-rosa m-0">Lanzamiento <br> de marca</p>
-                </div>
-                <div class="col-md-6 col-lg-3 d-flex justify-content-center align-items-center">
-                    <img src="img/Activaciones.png" class="img-fluid" alt="">
-                    <p class="position-absolute m-0">Activaciones</p>
-                </div>
-                <div class="col-md-6 col-lg-3 mt-3 mt-lg-0 d-flex justify-content-center align-items-center">
-                    <img src="img/Diseno.png" class="img-fluid" alt="">
-                    <p class="position-absolute">Diseño</p>
-                </div>
-                <div class="col-md-6 col-lg-3 mt-3 mt-lg-0 d-flex justify-content-center align-items-center">
-                    <img src="img/Campana.png" class="img-fluid" alt="">
-                    <p class="position-absolute">Campaña 360º</p>
-                </div>
-            </div>
-            <!-- <div class="my-5">
-                <h2 class="text-center mt-5"> <span class="bg-blue p-3 text-white">RETAL MARKETING</span> </h2>
-                <h3 class="my-5 text-center">ACTIVACIONES BTL</h3>
-            </div> -->
-        </div>
-    </section>
-
-    <!-- Digital Marketing -->
-    <section class="digital">
-        <h2 class="text-center my-5"> <span class="bg-rosa p-2 text-white">DIGITAL MARKETING </span></h2>
-        <div class="row">
-            <div class="col-md-9">
-                <h5 class="bg-blue text-white sita"><img src="img/Comillas.png" class="abre" alt="">Nuestra comunicación está centrada en el usuario creando contenido para cada uno de los canales basados en data e información del mercado. <img src="img/comillas-2.png" class="cierra" alt="">
-                </h5>
-
-                <div class="row pt-5">
-                    <div class="col-md-4">
-                        <h3 class="text-right">SERVICIOS</h3>
-                    </div>
-                    <div class="col-md-5 offset-1">
-                        <ul>
-                            <li>Desarrollo Web</li>
-                            <li>Social Media</li>
-                            <li>Posicionamiento en buscadores</li>
-                            <li>SEO/SEM</li>
-                            <li>Formularios de registro en línea</li>
-                            <li>Mailing publicitario Implementación</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 pr-0">
-                <img src="img/Servicios.png" class="img-fluid" alt="">
-            </div>
-        </div>
-    </section>
-
-    <footer class="pt-5 pb-3">
-        <div class="container">
-            <!-- <img src="img/Logo.png" width="80" alt=""> -->
             <div class="row px-0 redes">
                 <div class="col-md-9 d-flex justify-content-center">
                     <a class="nav-link" href="index.html">¿QUIÉNES SOMOS? <span class="sr-only">(current)</span></a>
@@ -195,7 +86,7 @@
                 <p class="m-0 text-white">Veinticuatro7 © 2020</p>
             </div>
         </div>
-    </footer>
+    </footer> -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -204,8 +95,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
     <script src="js/owl.carousel.min.js"></script>
-    <script src="js/lightbox.js"></script>
     <script src="js/lightbox-2.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/lightbox.js"></script>
 
 </body>
 

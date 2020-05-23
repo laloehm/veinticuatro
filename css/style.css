@@ -68,6 +68,10 @@ h2 {
 
 /* Home */
 
+.home {
+    height: 100vh;
+}
+
 .home .box {
     width: 30%;
     position: relative;
