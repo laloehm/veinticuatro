@@ -19,6 +19,28 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
+// Modal
+$('#pantallasvapor').on('click', () => {
+    // $('.myFrame').removeAttr('src');
+    $('#vpantallas').get(0).play();
+})
+
+$('.close').on('click', () => {
+    document.getElementById('vpantallas').pause();
+    document.getElementById('vpantallas').currentTime = 0;
+})
+
+$('#ventilador').on('click', () => {
+    // $('.myFrame').removeAttr('src');
+    $('#vventilador').get(0).play();
+})
+
+$('.close').on('click', () => {
+    document.getElementById('vventilador').pause();
+    document.getElementById('vventilador').currentTime = 0;
+})
+
+// Fin Modal
 
 /*  lightbox */
 const galleryItem = document.getElementsByClassName("gallery-item");
@@ -31,8 +53,8 @@ const lightBoxNext = document.createElement("div");
 lightBoxContainer.classList.add("lightbox");
 lightBoxContent.classList.add("lightbox-content");
 lightBoxImg.classList.add("img-fluid");
-lightBoxPrev.classList.add("fas", "fa-arrow-circle-left", "lightbox-prev");
-lightBoxNext.classList.add("fa", "fa-arrow-circle-right", "lightbox-next");
+lightBoxPrev.classList.add("fa", "fa-angle-left", "lightbox-prev");
+lightBoxNext.classList.add("fa", "fa-angle-right", "lightbox-next");
 
 lightBoxContainer.appendChild(lightBoxContent);
 lightBoxContent.appendChild(lightBoxImg);
@@ -84,4 +106,67 @@ lightBoxContainer.addEventListener('click', e => {
     }
 })
 
-// lightBoxContainer.addEventListener("click", closeLightBox);
+
+/*  lightbox */
+const galleryItemT = document.getElementsByClassName("gallery-item-team");
+const lightBoxContainerT = document.createElement("div");
+const lightBoxContentT = document.createElement("div");
+const lightBoxImgT = document.createElement("img");
+const lightBoxPrevT = document.createElement("div");
+const lightBoxNextT = document.createElement("div");
+
+lightBoxContainerT.classList.add("lightbox");
+lightBoxContentT.classList.add("lightbox-content");
+lightBoxImgT.classList.add("img-fluid");
+lightBoxPrevT.classList.add("fa", "fa-angle-left", "lightbox-prev");
+lightBoxNextT.classList.add("fa", "fa-angle-right", "lightbox-next");
+
+lightBoxContainerT.appendChild(lightBoxContentT);
+lightBoxContentT.appendChild(lightBoxImgT);
+lightBoxContentT.appendChild(lightBoxPrevT);
+lightBoxContentT.appendChild(lightBoxNextT);
+
+document.body.appendChild(lightBoxContainerT);
+
+let indexT = 1;
+
+function showLightBoxT(n) {
+    if (n > galleryItemT.length) {
+        indexT = 1;
+    } else if (n < 1) {
+        indexT = galleryItemT.length;
+    }
+    let imageLocation = galleryItemT[indexT - 1].children[0].getAttribute("src");
+    lightBoxImgT.setAttribute("src", imageLocation);
+}
+
+function currentImage() {
+    lightBoxContainerT.style.display = "block";
+
+    let imageIndex = parseInt(this.getAttribute("data-index"));
+    showLightBoxT(indexT = imageIndex);
+}
+for (let i = 0; i < galleryItemT.length; i++) {
+    galleryItemT[i].addEventListener("click", currentImage);
+}
+
+function slideImageT(n) {
+    showLightBoxT(indexT += n);
+}
+
+function prevImageT() {
+    slideImageT(-1);
+}
+
+function nextImageT() {
+    slideImageT(1);
+}
+lightBoxPrevT.addEventListener("click", prevImageT);
+lightBoxNextT.addEventListener("click", nextImageT);
+
+
+lightBoxContainerT.addEventListener('click', e => {
+    if (e.target === lightBoxContainerT) {
+        lightBoxContainerT.style.display = 'none';
+    }
+})

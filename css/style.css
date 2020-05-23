@@ -49,6 +49,10 @@ h2 {
     background: #eed836;
 }
 
+.bg-yellow-2 {
+    background: #feee00;
+}
+
 .text-rosa {
     color: #ba007c;
 }
@@ -166,7 +170,7 @@ h2 {
 
 /* Activaciones */
 .activaciones {
-    height: 300px;
+    height: 350px;
 }
 
 .activaciones img {
@@ -217,6 +221,25 @@ h2 {
     background-image: url(../img/Convenciones/1.png);
     background-size: cover;
     background-position: center;
+}
+
+.event .gallery-team {
+    height: 320px;
+    overflow: hidden;
+}
+
+.event .gallery-team .box-1,
+.event .gallery-team .box-2,
+.event .gallery-team .box-4,
+.event .gallery-team .box-5 {
+    height: 155px;
+    overflow: hidden;
+}
+
+.event .gallery-team .box-2,
+.event .gallery-team .box-4,
+.event .gallery-team .box-5 {
+    margin-top: 10px;
 }
 
 
@@ -326,4 +349,38 @@ h2 {
     box-shadow: none;
     border-bottom: 1px solid #ffffff;
     color: #ffffff;
+}
+
+/* Footer */
+footer {
+    /* background: #ba007c; */
+    background: #0086be;
+}
+
+footer .redes a,
+footer .redes p {
+    font-size: .8rem;
+    margin: 0;
+    color: #ffffff;
+}
+
+/* Modal */
+#modalpantallasvapor .modal-content,
+#modalventilador .modal-content {
+    background: transparent;
+    border: none;
+}
+
+
+@media (min-width:992px) {
+    .activaciones {
+        height: 300px;
+    }
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 700px;
+        margin: 1.75rem auto;
+    }
 }
