@@ -114,22 +114,21 @@ h2 {
 }
 
 .about p span:nth-child(1) {
-    /*color: #ffffff;
+    color: #ffffff;
     background: #0086be;
-    */
     /* color: #ffffff; */
-    animation-name: sombra-blue;
+    /* animation-name: sombra-blue;
     animation-duration: 5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite; */
 }
 
 .about p span:nth-child(2) {
-    /*background: #ba007c;
+    background: #ba007c;
     color: #ffffff;
-    */
+    /*
     animation: sombra-pink 5s;
     animation-duration: 5s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite;*/
 }
 
 .about img.position-absolute {
