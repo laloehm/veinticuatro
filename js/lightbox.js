@@ -77,14 +77,14 @@ function showLightBox(n) {
     lightBoxImg.setAttribute("src", imageLocation);
 }
 
-function currentImage() {
+function currentImages() {
     lightBoxContainer.style.display = "block";
 
     let imageIndex = parseInt(this.getAttribute("data-index"));
     showLightBox(index = imageIndex);
 }
 for (let i = 0; i < galleryItem.length; i++) {
-    galleryItem[i].addEventListener("click", currentImage);
+    galleryItem[i].addEventListener("click", currentImages);
 }
 
 function slideImage(n) {
@@ -142,14 +142,14 @@ function showLightBoxT(n) {
     lightBoxImgT.setAttribute("src", imageLocation);
 }
 
-function currentImage() {
+function currentImageT() {
     lightBoxContainerT.style.display = "block";
 
     let imageIndex = parseInt(this.getAttribute("data-index"));
     showLightBoxT(indexT = imageIndex);
 }
 for (let i = 0; i < galleryItemT.length; i++) {
-    galleryItemT[i].addEventListener("click", currentImage);
+    galleryItemT[i].addEventListener("click", currentImageT);
 }
 
 function slideImageT(n) {
