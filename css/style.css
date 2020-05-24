@@ -227,6 +227,49 @@ h2 {
     left: -305px;
 }
 
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    /* background: red !important; */
+    width: 30px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    right: 0;
+}
+
+.owl-carousel .owl-nav button.owl-next span,
+.owl-carousel .owl-nav button.owl-prev span {
+    background: rgba(0, 0, 0, .7);
+    width: 30px;
+    height: 30px !important;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.owl-carousel .owl-nav button.owl-next:focus,
+.owl-carousel .owl-nav button.owl-prev:focus {
+    outline: 0;
+    border: none;
+    box-shadow: 0;
+}
+
+/* display: block;
+
 /* Activaciones */
 .activaciones {
     height: 350px;
