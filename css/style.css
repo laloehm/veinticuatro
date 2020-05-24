@@ -163,8 +163,10 @@ h2 {
 }
 
 .nosotros p span:nth-child(1) {
-    animation: sombra-pink-2 5s infinite;
-    -webkit-animation: sombra-pink-2 5s infinite;
+   /* animation: sombra-pink-2 5s infinite;
+    -webkit-animation: sombra-pink-2 5s infinite; */
+    background: #ba007c;
+    color: #ffffff;
 }
 
 .nosotros p span:nth-child(2) {
@@ -172,8 +174,10 @@ h2 {
 }
 
 .nosotros .col-md-8 p:nth-child(3) span:nth-child(1) {
-    animation: sombra-blue-2 5s infinite;
-    -webkit-animation: sombra-blue-2 5s infinite;
+   /* animation: sombra-blue-2 5s infinite;
+    -webkit-animation: sombra-blue-2 5s infinite; */
+     color: #ffffff;
+    background: #0086be;
 }
 
 .nosotros .col-md-8 p:nth-child(3) span:nth-child(2) {
