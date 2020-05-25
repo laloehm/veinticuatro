@@ -211,8 +211,8 @@ h2 {
     content: '';
     display: block;
     position: absolute;
-    width: 300px;
-    left: -305px;
+    width: 350px;
+    left: -355px;
     border: 2px dashed #0086be;
 }
 
@@ -226,8 +226,8 @@ h2 {
 }
 
 .retail a:nth-last-child(1)::after {
-    width: 300px;
-    left: -305px;
+    width: 360px;
+    left: -365px;
 }
 
 .owl-carousel .owl-nav button.owl-next,
