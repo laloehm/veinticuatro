@@ -420,6 +420,13 @@ h2 {
     left: -15px;
 }
 
+.like {
+    position: absolute;
+    top: -25px;
+    right: 100px;
+    width: 70px;
+}
+
 /* Contacto */
 .contacto .col-md-4 p {
     display: inline-block;
@@ -471,7 +478,7 @@ footer {
 
 footer .redes a,
 footer .redes p {
-    font-size: .8rem;
+    font-size: .7rem;
     margin: 0;
     color: #ffffff;
 }
@@ -586,6 +593,18 @@ footer .redes p {
 
     .navbar-contacto {
         position: relative;
+    }
+
+    .like {
+        display: block;
+        margin: 0 auto 1rem;
+        position: relative;
+        right: 0;
+    }
+
+    footer .redes .col-md-3 {
+        border-top: 1px solid white;
+        padding-top: .5rem;
     }
 
 }
