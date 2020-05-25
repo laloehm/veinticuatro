@@ -19,7 +19,10 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
-new WOW().init();
+wow = new WOW({
+    mobile: false // default
+})
+wow.init();
 
 // Modal
 $('#pantallasvapor').on('click', () => {
