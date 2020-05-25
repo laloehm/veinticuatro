@@ -116,10 +116,6 @@ h2 {
 .about p span:nth-child(1) {
     color: #ffffff;
     background: #0086be;
-<<<<<<< HEAD
-
-=======
->>>>>>> 56d8f588c6484fdcb9c01cb8901d0b8145c0dfb4
     /* color: #ffffff; */
     /* animation-name: sombra-blue;
     animation-duration: 5s;
@@ -129,17 +125,10 @@ h2 {
 .about p span:nth-child(2) {
     background: #ba007c;
     color: #ffffff;
-<<<<<<< HEAD
-
-    /* animation: sombra-pink 5s;
-    animation-duration: 5s;
-    animation-iteration-count: infinite; */
-=======
     /*
     animation: sombra-pink 5s;
     animation-duration: 5s;
     animation-iteration-count: infinite;*/
->>>>>>> 56d8f588c6484fdcb9c01cb8901d0b8145c0dfb4
 }
 
 .about img.position-absolute {
@@ -174,18 +163,10 @@ h2 {
 }
 
 .nosotros p span:nth-child(1) {
-<<<<<<< HEAD
     /* animation: sombra-pink-2 5s infinite;
     -webkit-animation: sombra-pink-2 5s infinite; */
     background: #ba007c;
     color: #ffffff;
-
-=======
-   /* animation: sombra-pink-2 5s infinite;
-    -webkit-animation: sombra-pink-2 5s infinite; */
-    background: #ba007c;
-    color: #ffffff;
->>>>>>> 56d8f588c6484fdcb9c01cb8901d0b8145c0dfb4
 }
 
 .nosotros p span:nth-child(2) {
@@ -193,15 +174,9 @@ h2 {
 }
 
 .nosotros .col-md-8 p:nth-child(3) span:nth-child(1) {
-<<<<<<< HEAD
     /* animation: sombra-blue-2 5s infinite;
     -webkit-animation: sombra-blue-2 5s infinite; */
     color: #ffffff;
-=======
-   /* animation: sombra-blue-2 5s infinite;
-    -webkit-animation: sombra-blue-2 5s infinite; */
-     color: #ffffff;
->>>>>>> 56d8f588c6484fdcb9c01cb8901d0b8145c0dfb4
     background: #0086be;
 }
 
@@ -560,6 +535,10 @@ footer .redes p {
 }
 
 @media (max-width:767px) {
+    .navbar .logo {
+        width: 55px;
+    }
+
     .home .box {
         width: 70%;
     }
