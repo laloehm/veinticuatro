@@ -20,7 +20,7 @@ $('.owl-carousel').owlCarousel({
 })
 
 wow = new WOW({
-    mobile: false // default
+    mobile: true // default
 })
 wow.init();
 
