@@ -278,6 +278,11 @@ h2 {
     width: 80%;
 }
 
+.gallery-btl {
+    height: 320px;
+    overflow: hidden;
+}
+
 /* Event Marketing */
 .event .col-md-3 {
     display: flex;
