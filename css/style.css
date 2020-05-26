@@ -70,6 +70,27 @@ h2 {
     font-size: .8rem;
 }
 
+.nav-link:hover {
+    background: #0086be;
+    color: white !important;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.navbar-nav .nav-item:nth-child(2) .nav-link:hover,
+.navbar-nav .nav-item:nth-child(5) .nav-link:hover {
+    background: #ba007c;
+}
+
+.navbar-nav .nav-item:nth-child(3) .nav-link:hover,
+.navbar-nav .nav-item:nth-child(6) .nav-link:hover {
+    background: #eed836;
+    color: black !important;
+}
+
 /* Home */
 
 .home {
