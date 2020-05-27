@@ -568,6 +568,10 @@ footer .redes p {
 }
 
 @media (max-width:767px) {
+    .home {
+        height: 85vh;
+    }
+
     h2 {
         font-size: 1.4rem;
     }
@@ -630,6 +634,10 @@ footer .redes p {
     footer .redes .col-md-3 {
         border-top: 1px solid white;
         padding-top: .5rem;
+    }
+
+    section {
+        overflow-x: hidden;
     }
 
 }
