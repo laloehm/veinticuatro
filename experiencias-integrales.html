@@ -24,7 +24,7 @@
 <body>
 
     <!-- Header -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-contacto navbar-expand-lg navbar-light bg-white">
         <a class="navbar-brand m-3" href="index.html"><img src="img/Logo.png" width="70" class="logo" alt="Logo veinticuatro siete"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -32,10 +32,13 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="quienes-somos.html">¿QUIÉNES SOMOS? </a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#about">QUIENES SOMOS</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="experiencias-integrales.html">EXPERIENCIAS INTEGRALES 360º</a>
                 </li>
                 <li class="nav-item">
@@ -47,7 +50,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="partners.html">PARTNERS</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="contacto.html">CONTACTO</a>
                 </li>
             </ul>
@@ -78,6 +81,15 @@
                     <p class="position-absolute">Campaña 360º</p>
                 </div>
             </div>
+            <!-- Gallery -->
+            <div class="row gallery-bt mt-4 wow fadeIn">
+                <div class="col-lg-6 pl-0">
+                    <img id="imgkotex" src="videos/Kotex.png" class="img-fluid" alt="" data-toggle="modal" data-target="#modalKotex">
+                </div>
+                <div class="col-lg-6 pl-0 mt-3 mt-md-0">
+                    <img id="trojan" src="videos/Trojan.png" class="img-fluid" alt="" data-toggle="modal" data-target="#modalTrojan">
+                </div>
+            </div>
             <!-- <div class="my-5">
                 <h2 class="text-center mt-5"> <span class="bg-blue p-3 text-white">RETAL MARKETING</span> </h2>
                 <h3 class="my-5 text-center">ACTIVACIONES BTL</h3>
@@ -86,29 +98,8 @@
     </section>
 
     <!-- Experiencial Marketing -->
-    <section class="experiencial my-5" id="experiencial">
-        <h2 class="text-center w-100 mb-5"> <span class="bg-rosa text-white p-2"> EXPERIENCIAL MARKETING </span></h2>
-        <div class="px-md-5 pt-5">
-            <h3 class="text-center"><span class="bg-yellow p-2"> NUESTRA EXPERIENCIA</span></h3>
-            <p class="my-3 text-center px-5">Innovamos en el formato de comunicación e identificamos lo formatos adecuados, con la finalidad de aportar ideas con valor a las marcas y al consumidor final, siempre gestionado de manera correcta a través de los medios digitales. </p>
-        </div>
-        <div class="mt-5 metodologia d-flex justify-content-center flex-column align-items-center">
-            <h3 class="text-center"><span class="bg-yellow p-2"> METODOLOGÍA</span></h3>
-            <ul class="d-flex justify-content-center m-0 my-4 my-md-0 flex-wrap">
-                <li>INTERACCIONES</li>
-                <li>REACCIONES</li>
-                <li>VIEWS </li>
-                <li>CLICKS</li>
-                <li>LEADS</li>
-            </ul>
-            <p class="text-center px-5">Buscamos que todo lo implementado sea medible, con la finalidad de basar la estrategía a seguir en el resultado y así encontrar la mejor oportunidad para nuestras marcas.
-            </p>
-            <h5 class="text-center sita bg-rosa position-relative px-3 mb-5">
-                <img src="img/Comillas-3.png" class="abre" alt="">
-                EL ÉXITO SE MUEVE POR LOS NÚMEROS
-                <img src="img/Comillas-4.png" class="cierra" alt="">
-            </h5>
-        </div>
+    <section class="experiencial my-5 py-5" id="experiencial">
+        <h2 class="text-center w-100"> <span class="bg-rosa text-white p-2"> EXPERIENCIAL MARKETING </span></h2>
         <div class="row pl-3 pl-md-5 pt-5">
             <div class="col-md-7 pl-0">
                 <h3><span class="bg-yellow p-2 d-inline-block"> PANTALLAS DE VAPOR 3D</span></h3>
@@ -135,8 +126,8 @@
 
         </div>
         <div class=" px-3 px-md-5 mt-5">
-            <h3><span class="bg-yellow p-2 d-inline-block"> STAND Y EXPOS</span></h3>
-            <p>Diseñamos, desarrollamos y operamos stand logrando una combinación entre funcionalidad e innovación adaptándonos a tus necesidades.</p>
+            <h3><span class="bg-yellow p-2 d-inline-block"> STANDS Y EXPOS</span></h3>
+            <p>Diseñamos, desarrollamos y operamos stands logrando una combinación entre funcionalidad e innovación adaptándonos a tus necesidades.</p>
             <p>Si necesitas un diseño custom, lo podemos hacer tanto para stand como display.</p>
             <p>Complementarios: actividades, edecanes, promocionales así como todo lo necesario para que en cada expo tengas lo necesario.</p>
 
@@ -146,7 +137,7 @@
                 <div class="item mx-auto">
                     <div class="d-flex justify-content-center align-items-center">
                         <div class="gallery-item" data-index="1">
-                            <img src="img/Stands/1.png" class="img-fluid">
+                            <img src="img/Stands/1.png" class="img-fluid" alt="veinticuatro7 stands">
                         </div>
                     </div>
                 </div>
@@ -155,7 +146,7 @@
                 <div class="item mx-auto">
                     <div class="d-flex justify-content-center align-items-center">
                         <div class="gallery-item" data-index="2">
-                            <img src="img/Stands/2.png" class="img-fluid">
+                            <img src="img/Stands/2.png" class="img-fluid" alt="veinticuatro7 stands">
                         </div>
                     </div>
                 </div>
@@ -164,17 +155,15 @@
                 <div class="mx-auto">
                     <div class="d-flex justify-content-center align-items-center">
                         <div class="gallery-item" data-index="3">
-                            <img src="img/Stands/3.png" class="img-fluid">
+                            <img src="img/Stands/3.png" class="img-fluid" alt="veinticuatro7 stands">
                         </div>
                     </div>
                 </div>
-
-
                 <!--  -->
                 <div class="mx-auto">
                     <div class="d-flex justify-content-center align-items-center">
                         <div class="gallery-item" data-index="4">
-                            <img src="img/Stands/4.png" class="img-fluid">
+                            <img src="img/Stands/4.png" class="img-fluid" alt="veinticuatro7 stands">
                         </div>
                     </div>
                 </div>
@@ -187,20 +176,20 @@
             <!-- <img src="img/Logo.png" width="80" alt=""> -->
             <div class="row px-0 redes">
                 <div class="col-md-9 d-flex justify-content-center flex-wrap">
-                    <a class="nav-link" href="index.html">¿QUIÉNES SOMOS? <span class="sr-only">(current)</span></a>
+                    <a class="nav-link smooth" href="index.html#about">QUIÉNES SOMOS</a>
                     <a class="nav-link" href="experiencias-integrales.html">EXPERIENCIAS INTEGRALES 360º</a>
                     <a class="nav-link" href="events.html">EVENTS</a>
+                    <a class="nav-link" href="digital-marketing.html">DIGITAL MARKETING</a>
                     <a class="nav-link" href="partners.html">PARTNERS</a>
-                    <a class="nav-link" href="contacto.html">CONTACTO</a>
+                    <a class="nav-link smooth" href="contacto.html">CONTACTO</a>
                 </div>
                 <div class="col-md-3 d-flex align-items-center justify-content-center flex-column">
                     <p class="">SÍGUENOS EN REDES</p>
-                    <div class="d-flex justify-content-center w-100 mt-2">
+                    <div class="d-flex justify-content-center w-100 mY-2">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                         <a href="#"><i class="fab fa-facebook-f mx-3"></i></a>
                         <a href="#"><i class="fab fa-linkedin-in"></i></a>
                     </div>
-
                 </div>
             </div>
             <div class="row justify-content-center mt-1 border-top">
@@ -210,7 +199,7 @@
     </footer>
 
     <!-- Modal Videos pantallas 3d -->
-    <div class="modal fade" id="modalpantallasvapor" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal fade" id="modalpantallasvapor" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header bg-white">
@@ -229,7 +218,7 @@
     </div>
 
     <!-- Modal Videos ventilador holografico -->
-    <div class="modal fade" id="modalventilador" data-backdrop=" static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal fade" id="modalventilador" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header bg-white">
@@ -247,6 +236,43 @@
         </div>
     </div>
 
+    <!-- Modal Kotex -->
+    <div class="modal fade" id="modalKotex" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-white">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body p-0">
+                    <!-- <iframe src="videos/leia-display-system.mp4" frameborder="0" class="myframe"></iframe> -->
+                    <video id="vkotex" controls poster="videos/Kotex.png" class="w-100">
+                        <source src="videos/Kotex.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Trojan -->
+    <div class="modal fade" id="modalTrojan" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-white">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body p-0">
+                    <!-- <iframe src="videos/leia-display-system.mp4" frameborder="0" class="myframe"></iframe> -->
+                    <video id="vtrojan" controls poster="videos/Trojan.png" class="w-100">
+                        <source src="videos/Trojan.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -257,6 +283,11 @@
     <script src="js/lightbox-2.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/lightbox.js"></script>
+
+    <script>
+
+    </script>
+
 </body>
 
 </html>

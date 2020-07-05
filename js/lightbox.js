@@ -43,6 +43,19 @@ $('#ventilador').on('click', () => {
 $('.close').on('click', () => {
     document.getElementById('vventilador').pause();
     document.getElementById('vventilador').currentTime = 0;
+    document.getElementById('vkotex').pause();
+    document.getElementById('vkotex').currentTime = 0;
+    document.getElementById('vtrojan').pause();
+    document.getElementById('vtrojan').currentTime = 0;
+})
+
+$('#imgkotex').on('click', () => {
+    // $('.myFrame').removeAttr('src');
+    $('#vkotex').get(0).play();
+})
+$('#trojan').on('click', () => {
+    // $('.myFrame').removeAttr('src');
+    $('#vtrojan').get(0).play();
 })
 
 // Fin Modal

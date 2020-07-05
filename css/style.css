@@ -70,6 +70,27 @@ h2 {
     font-size: .8rem;
 }
 
+.nav-link:hover {
+    background: #0086be;
+    color: white !important;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.navbar-nav .nav-item:nth-child(2) .nav-link:hover,
+.navbar-nav .nav-item:nth-child(5) .nav-link:hover {
+    background: #ba007c;
+}
+
+.navbar-nav .nav-item:nth-child(3) .nav-link:hover,
+.navbar-nav .nav-item:nth-child(6) .nav-link:hover {
+    background: #eed836;
+    color: black !important;
+}
+
 /* Home */
 
 .home {
@@ -278,6 +299,11 @@ h2 {
     width: 80%;
 }
 
+.gallery-btl {
+    height: 320px;
+    overflow: hidden;
+}
+
 /* Event Marketing */
 .event .col-md-3 {
     display: flex;
@@ -415,6 +441,13 @@ h2 {
     left: -15px;
 }
 
+.like {
+    position: absolute;
+    top: -25px;
+    right: 100px;
+    width: 70px;
+}
+
 /* Contacto */
 .contacto .col-md-4 p {
     display: inline-block;
@@ -466,7 +499,7 @@ footer {
 
 footer .redes a,
 footer .redes p {
-    font-size: .8rem;
+    font-size: .7rem;
     margin: 0;
     color: #ffffff;
 }
@@ -535,6 +568,14 @@ footer .redes p {
 }
 
 @media (max-width:767px) {
+    .home {
+        height: 85vh;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
     .navbar .logo {
         width: 55px;
     }
@@ -581,6 +622,22 @@ footer .redes p {
 
     .navbar-contacto {
         position: relative;
+    }
+
+    .like {
+        display: block;
+        margin: 0 auto 1rem;
+        position: relative;
+        right: 0;
+    }
+
+    footer .redes .col-md-3 {
+        border-top: 1px solid white;
+        padding-top: .5rem;
+    }
+
+    section {
+        overflow-x: hidden;
     }
 
 }
